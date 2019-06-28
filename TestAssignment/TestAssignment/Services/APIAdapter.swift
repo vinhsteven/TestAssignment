@@ -8,13 +8,8 @@
 
 import Foundation
 
-protocol APIAdapterDelegate {
-    func addItems(items: [ItemModel])
-}
-
 class APIAdapter {
     static let shared = APIAdapter()
-    var delegate : APIAdapterDelegate?
     
     var currentPage = 1
     let totalPage = 10

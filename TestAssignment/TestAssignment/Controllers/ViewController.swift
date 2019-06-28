@@ -10,7 +10,7 @@ import UIKit
 
 let CellIdentifier = "CellIdentifier"
 
-class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UITextFieldDelegate, APIAdapterDelegate {
+class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UITextFieldDelegate {
 
     @IBOutlet weak var txtUser: UITextField!
     @IBOutlet weak var collectionView: UICollectionView!
